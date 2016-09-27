@@ -1,0 +1,38 @@
+/*
+*	Q2A Market Pixel n Grain Dark
+*
+*	Change Logs
+*	File: changelog-v-D1.2.txt
+*	
+*	@author			Q2A Market
+*	@category		Plugin
+*	@Version: 		D1.2
+*   @author URL:	http://www.q2amarket.com
+*	
+*	@Q2A Version	1.6
+*
+*/
+
+
+Changelog: Version: D1.2
+
+
+File: qa-theme.php
+
+	1.	Hide sidebar for user profile page to match the layout for Q2A 1.6
+	2.	Modified Credits
+
+File: qa-styles.css
+
+	1.	Added answer counter status color feedback
+	2.	Modied vote counter
+	3.	Removed background from qa-list to make it more clean
+	4.	Sidebar modified
+	5.	Selected answer box modified
+	6.	User profile page layout modified
+	7.	Fix category tree column issue
+	8.	Removed background form form tables to make it more clean
+
+File: ie.css
+
+	No ie specific update
