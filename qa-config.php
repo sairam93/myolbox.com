@@ -82,7 +82,7 @@
 	If there are already some BLOBs stored in the database from previous uploads, click the
 	'Move BLOBs to disk' button in the 'Stats' section of the admin panel to move them to disk.
 */
-	//define('QA_BLOBS_DIRECTORY', '/QA1/BLOB');
+	define('QA_BLOBS_DIRECTORY', 'C:\xampp\htdocs\myolbox.com\BLOB');
 
 
 /*
@@ -166,8 +166,8 @@
 	define('QA_HTML_COMPRESSION', true);
 	define('QA_MAX_LIMIT_START', 19999);
 	define('QA_IGNORED_WORDS_FREQ', 10000);
-	define('QA_ALLOW_UNINDEXED_QUERIES', false);
-	define('QA_OPTIMIZE_LOCAL_DB', false);
+	define('QA_ALLOW_UNINDEXED_QUERIES', true);
+	define('QA_OPTIMIZE_LOCAL_DB', true);
 	define('QA_OPTIMIZE_DISTANT_DB', false);
 	define('QA_PERSISTENT_CONN_DB', false);
 	define('QA_DEBUG_PERFORMANCE', false);
